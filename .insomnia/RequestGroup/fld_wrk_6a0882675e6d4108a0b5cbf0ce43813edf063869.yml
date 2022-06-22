@@ -1,0 +1,10 @@
+_id: fld_wrk_6a0882675e6d4108a0b5cbf0ce43813edf063869
+type: RequestGroup
+parentId: wrk_6a0882675e6d4108a0b5cbf0ce43813e
+modified: 1655896191053
+created: 1655896191053
+name: Stream
+description: Streams a response into chunks
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1655896191053

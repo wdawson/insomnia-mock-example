@@ -1,0 +1,84 @@
+_id: spc_3d0d74dfc22f4a75920ff0f23a943991
+type: ApiSpec
+parentId: wrk_6a0882675e6d4108a0b5cbf0ce43813e
+modified: 1655896191070
+created: 1655894945992
+fileName: Mockbin Example
+contents: >-
+  {
+    "openapi": "3.0.3",
+    "info": {
+      "title": "Mockbin Example",
+      "description": "An example OpenAPI specification using the mockbin service to showcase Insomnia's capabilities.",
+      "version": "v0.1.0"
+    },
+    "tags": [
+      {
+        "name": "Debugging",
+        "description": "General request debugging"
+      },
+      {
+        "name": "IP",
+        "description": "IP address information involved in the request"
+      },
+      {
+        "name": "Status",
+        "description": "Specific status code requests"
+      },
+      {
+        "name": "Headers",
+        "description": "Header information involved in the request"
+      },
+      {
+        "name": "Cookies",
+        "description": "Cookie information involved in the request"
+      },
+      {
+        "name": "Redirects",
+        "description": "Redirect the client given instructions"
+      },
+      {
+        "name": "Stream",
+        "description": "Streams a response into chunks"
+      },
+      {
+        "name": "Delay",
+        "description": "Returns a delayed response"
+      },
+      {
+        "name": "Compression",
+        "description": "Force compression on responses"
+      }
+    ],
+    "paths": {
+      "/echo": {
+        "post": {
+          "tags": [
+            "Debugging"
+          ],
+          "responses": {
+            "200": {
+              "description": "Successful response with an echo of the request",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          },
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+contentType: yaml

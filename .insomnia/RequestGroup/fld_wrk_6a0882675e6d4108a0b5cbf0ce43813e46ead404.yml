@@ -1,0 +1,10 @@
+_id: fld_wrk_6a0882675e6d4108a0b5cbf0ce43813e46ead404
+type: RequestGroup
+parentId: wrk_6a0882675e6d4108a0b5cbf0ce43813e
+modified: 1655896191048
+created: 1655896191048
+name: Compression
+description: Force compression on responses
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1655896191049
