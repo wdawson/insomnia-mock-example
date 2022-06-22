@@ -1,0 +1,25 @@
+_id: req_wrk_6a0882675e6d4108a0b5cbf0ce43813e24fbd648
+type: Request
+parentId: fld_wrk_6a0882675e6d4108a0b5cbf0ce43813eb4c200bb
+modified: 1655922015407
+created: 1655921859485
+url: "{{ base_url }}/delay/{{ ms }}"
+name: /delay/{ms}
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9723c570eb764080af06f5f760ce0c80
+    name: foo
+    value: bar
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1655921859485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
