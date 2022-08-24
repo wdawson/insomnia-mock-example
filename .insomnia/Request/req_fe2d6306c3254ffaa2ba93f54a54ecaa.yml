@@ -1,0 +1,26 @@
+_id: req_fe2d6306c3254ffaa2ba93f54a54ecaa
+type: Request
+parentId: fld_wrk_6a0882675e6d4108a0b5cbf0ce43813e895b27c8
+modified: 1661379081729
+created: 1661379078514
+url: "{{ base_url }}/echo"
+name: /echo GET
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: '{"name":"kong"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_095888c05d78414c872a91c5d7ba46f5
+authentication: {}
+metaSortKey: -1655351537491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

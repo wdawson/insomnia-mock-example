@@ -1,0 +1,26 @@
+_id: req_370ede07dfd442a888dce8621c4f0a81
+type: Request
+parentId: fld_wrk_6a0882675e6d4108a0b5cbf0ce43813e895b27c8
+modified: 1661379228091
+created: 1661379215251
+url: "{{ base_url }}/echo"
+name: /echo Trick
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: '{"name":"kong"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_095888c05d78414c872a91c5d7ba46f5
+authentication: {}
+metaSortKey: -1655079210715
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
